@@ -78,6 +78,18 @@ public class VistaConsola implements IVista {
 
 				break;
 			case 12:
+
+				break;
+			case 13:
+
+				break;
+			case 14:
+
+				break;
+			case 15:
+
+				break;
+			case 16:
 				System.out.println("\nSaliendo del programa...\n");
 
 				break;
@@ -85,7 +97,7 @@ public class VistaConsola implements IVista {
 				System.err.println("\nLa opcion dada no corresponde a una operacion valida.");
 			}
 
-		} while (opcion != 12);
+		} while (opcion != 16);
 	}
 
 	public void menu() {
@@ -102,7 +114,11 @@ public class VistaConsola implements IVista {
 		System.out.println("9: Eliminar los alumnos por su curso.");
 		System.out.println("10: Guardar los grupos en un fichero.");
 		System.out.println("11: Leer los grupos de un fichero.");
-		System.out.println("12: Salir.");
+		System.out.println("12: Mostrar los alumnos del grupo elegido.");
+		System.out.println("13: Mostrar alumno por su PK.");
+		System.out.println("14: Cambiar el grupo de un alumno.");
+		System.out.println("15: Guardar el grupo que elija el usuario.");
+		System.out.println("16: Salir.");
 		System.out.println("------------------");
 		System.out.print("¿Que opcion elige? ");
 	}
